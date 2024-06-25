@@ -1,14 +1,14 @@
 # Sentiment Analysis & Topic Modeling of Social Media Data Using NLP & Deep Learning Techniques
 
 # Introduction
-Dived into Sentiment Analysis and Topic Modeling using Natural Language Processing & Deep Learning focusing on extracting and analyzing opinions expressed from comments scraped from a YouTube, Data Cleaning & Preprocessing of Natural Language dataset, and Text Analysis to visually explore and Identify recurring themes or topics present in the comments, explored Natural Language Technique of TF-IDF + Logistic regression by building a baseline based on Tf-Idf representations of product reviews and finally Topic Modeling using deep learning technique of Bidirectional Encoder Representations from Transformers (BERT) to identify recurring topics within the comments
+I dived into Sentiment Analysis and Topic Modeling using Natural Language Processing & Deep Learning focusing on extracting and analyzing opinions expressed from comments scraped from a YouTube, Data Cleaning & Preprocessing of Natural Language dataset, and Text Analysis to visually explore and Identify recurring themes or topics present in the comments, explored Natural Language Technique of TF-IDF + Logistic regression by building a baseline based on Tf-Idf representations of product reviews and finally Topic Modeling using deep learning technique of Bidirectional Encoder Representations from Transformers (BERT) to identify recurring topics within the comments
 
 Python code? Check them out here on GitHub: https://bit.ly/4c5RBUB
 
 # Background
-Driven by the quest to navigate the data analytics upskilling by choosing the best online courses, this project was born bt a desire to pinpoint top skills offered by the Google Data Analytics Certifcate helping others to find optimal jobs.
+Driven by the quest to navigate the data analytics upskilling by choosing the best online courses, this project was born bt a desire to pinpoint top skills offered by the Google Data Analytics certificate helping others to find optimal jobs.
 
-The data was scraped from comments from a YouTube Video posted by **Luke Barousse** titled "Become a DATA ANALYST with NO degree?!? The Google Data Analytics Professional Certificate", Link to the video on YouTube: https://www.youtube.com/watch?v=fmLPS6FBbac. The video is packed with an overview about the course, tools taught in the course, likes and concerns towards the course and some recommendations
+The data was scraped from comments from a YouTube Video posted by **Luke Barousse** titled "Become a DATA ANALYST with NO degree?!? The Google Data Analytics Professional Certificate", Link to the video on YouTube: https://www.youtube.com/watch?v=fmLPS6FBbac. The video is packed with an overview of the course, tools taught in the course, likes and concerns towards the course and some recommendations
 
 ### The five questions I wanted to answer through this project were;
 
@@ -22,7 +22,7 @@ The data was scraped from comments from a YouTube Video posted by **Luke Barouss
 For my machine learning project sentiment analysis & topic modeling, I used the powers of several key tools:
 
 * **YouTube Data API** For extracting comments from YouTube Video for my analysis and machine learning modeling
-* **Python:** My go-to programming language for data cleaning, preprocessing, exploratory data analysis and implementing machine learning algorithm
+* **Python:** My go-to programming language for data cleaning, preprocessing, exploratory data analysis, and implementing machine learning algorithm
 * **Logistic Regression with TF-IDF vectorizer:** As the predictive model generating input features using the text classification and sentiment analysis 
 * **BERT** (Bidirectional Encoder Representations from Transformers), a deep learning model for topic modeling
 * **Gradio:** An open-source Python package to build a web application for the machine learning model. You can then share a link to your demo or web application in just a few seconds using Gradio's built-in sharing features.
@@ -30,7 +30,7 @@ For my machine learning project sentiment analysis & topic modeling, I used the 
 
 # The Analysis
 
-The analysis for this project aimed to investigate the overall sentiment expressed in the comments towards the course and identify the recurring themes and topics shared by learners through the comments, and gain insights into key skills and career projections and recommendations.
+The analysis for this project aimed to investigate the overall sentiment expressed in the comments towards the course identify the recurring themes and topics shared by learners through the comments, and gain insights into key skills and career projections and recommendations.
 
 ### 1. What is the overall sentiment expressed in the comments towards the course?
 To identify the overall sentiments expressed in comments towards the course, I applied the rule-based sentiment analysis using VADER lexicon, a rule-based sentiment analysis tool and analyzed the sentiment by extracting sentiment scores and classifying comments as positive or negative based on compound scores.
@@ -43,8 +43,8 @@ The majority of the sentiments in the dataset are Positive (93.4%), while a smal
 
 *Bar graph visualizing the sentiments scores*
 
-### 2. What are the recurring themes: prevalent areas of interest, skills, tools and experiences
-Major tools used in the course included excel, SQL, tableau, and the programming language python. The career projection included mentions of career switches and changes to data jobs after completing the course.
+### 2. What are the recurring themes: prevalent areas of interest, skills, tools, and experiences
+Major tools used in the course included Excel, SQL, Tableau, and the programming language Python. The career projection included mentions of career switches and changes to data jobs after completing the course.
 
 ![Word Cloud](https://github.com/anormanangel/Sentiment-Analysis-Topic-Modeling-of-Social-Media-Data-Using-NLP-Deep-Learning-Techniques/blob/main/assets/Word%20Cloud.png)
 
