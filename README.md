@@ -1,12 +1,12 @@
 # Sentiment Analysis & Topic Modeling of Social Media Data Using NLP & Deep Learning Techniques
 
 # Introduction
-I dived into Sentiment Analysis and Topic Modeling using Natural Language Processing & Deep Learning focusing on extracting and analyzing opinions expressed from comments scraped from a YouTube, Data Cleaning & Preprocessing of a Natural Language dataset, and Text Analysis to visually explore and Identify recurring themes or topics present in the comments, explored Natural Language Technique of TF-IDF + Logistic regression by building a baseline based on Tf-Idf representations of product reviews and finally Topic Modeling using deep learning technique of Bidirectional Encoder Representations from Transformers (BERT) to identify recurring topics within the comments
+I dived into Sentiment Analysis and Topic Modeling using Natural Language Processing & Deep Learning focusing on extracting and analyzing opinions expressed from comments scraped from a YouTube, Data Cleaning & Preprocessing of a Natural Language dataset, and Text Analysis to visually explore and Identifying recurring themes or topics present in the comments, explored Natural Language Technique of TF-IDF + Logistic regression by building a baseline based on Tf-Idf representations of the course reviews and finally Topic Modeling using deep learning technique of Bidirectional Encoder Representations from Transformers (BERT) to identify recurring topics within the comments
 
 Python code? Check them out here on GitHub: https://bit.ly/4c5RBUB
 
 # Background
-Driven by the quest to navigate the data analytics upskilling by choosing the best online courses, this project was born bt a desire to pinpoint top skills offered by the Google Data Analytics certificate helping others to find optimal jobs.
+Driven by the quest to navigate the data analytics upskilling by choosing the best online courses, this project was born by a desire to pinpoint top skills offered by the Google Data Analytics certificate helping others to find optimal jobs.
 
 The data was scraped from comments from a YouTube Video posted by **Luke Barousse** titled "Become a DATA ANALYST with NO degree?!? The Google Data Analytics Professional Certificate", Link to the video on YouTube: https://www.youtube.com/watch?v=fmLPS6FBbac. The video is packed with an overview of the course, tools taught in the course, likes and concerns towards the course and some recommendations
 
