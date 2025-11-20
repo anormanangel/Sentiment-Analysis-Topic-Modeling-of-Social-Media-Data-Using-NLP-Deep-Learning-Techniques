@@ -63,7 +63,7 @@ The model performed very well in identifying positive instances with high precis
 
 *Confusion Matrix showing the model performance*
 
-### 4. How can topic modeling using the deep learning technique of BERT (Bidirectional Encoder Representations from Transformers) be applied to identify recurring themes or topics within comments?
+### 4. How can topic modeling using the deep learning technique of BERT can be applied to identify recurring themes or topics within comments?
 
 **Training:** 
 * I started by instantiating BERTopic and setting the language to English since the comments are in the English language. I then calculated the topic probabilities. However, this can slow down BERTopic significantly at large amounts of data (>100_000 documents). It is advised to turn this off if you want to speed up the model.
